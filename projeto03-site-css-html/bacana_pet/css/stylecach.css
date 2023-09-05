@@ -1,0 +1,284 @@
+/* CSS Reset */
+body,
+h1,
+h2,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Additional Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+.cab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2bbaf6;
+    padding: 10px;
+
+}
+
+.cab1,
+.cab3 {
+    flex: 1;
+}
+
+.cab2 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.pesquisa input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 95px;
+    
+}
+
+.pesquisa button {
+    background-color: #0074D9;
+    color: #ffffff;
+    border: none;   
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 60px;
+    text-align: center;
+    margin-top: 20px;
+    height: auto;
+    
+        
+}
+
+ul li1:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  
+  ul li2:hover{
+    background-color:#7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  ul li3:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  ul li4:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  ul li5:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+  
+  ul li6:hover{
+    background-color: #7EC5E3;
+    color: white;
+    display: flexbox;
+    cursor: pointer;
+    border-radius: 5%;
+  }
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.baner {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.baner img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+/* Footer */
+/* Footer = RODAPÉ */
+#rodape {
+    background-color: #136093;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  #rodape h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .ins,
+  .reds,
+  .aten,
+  .formas,
+  .end {
+    flex-basis: calc(20% - 10px);
+  
+  }
+  
+  
+  .end a,
+  .ins a,
+  .reds a,
+  .aten a,
+  .formas a,
+  .end a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+    .cab {
+        flex-direction: column;
+    }
+
+    .cab1,
+    .cab3 {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cab {
+        padding: 5px;
+    }
+
+    .cab2 {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .pesquisa {
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .pesquisa input[type="text"] {
+        width: 100%;
+    }
+
+    .pesquisa button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+
+
+/* ======================================== */
+
+/* >>>>>>>> Formatação Nati <<<<<<<< */
+
+#container-petiscos {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px rgb(189, 184, 184);
+
+}
+
+
+
+.box1-petisco {
+    background-color: white;
+    margin: 20px;
+   
+
+}
+.box1-petisco img{
+    width: 65%;
+    
+}
+
+
+
+/* .box2-petisco{
+    background-color: white;
+    margin: 20px;
+  
+  } */
+
+
+
+h1 {
+    color: #ed8d31;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+h2 {
+    color: #2CBAF6
+}

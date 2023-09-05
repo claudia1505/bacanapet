@@ -1,0 +1,318 @@
+/* CSS Reset */
+body,
+h1,
+h2,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Additional Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header */
+.cab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2bbaf6;
+    padding: 10px;
+}
+
+.cab1,
+.cab3 {
+    flex: 1;
+}
+
+.cab2 {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.pesquisa {
+    display: flex;
+    margin-left: 20px;
+}
+
+.pesquisa input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 95px;
+
+}
+
+.pesquisa button {
+    background-color: #0074D9;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 60px;
+    text-align: center;
+    margin-top: 20px;
+    height: auto;
+
+
+}
+
+li:hover {
+    border: 1px solid #7EC5E3;
+    border-radius: 50px;
+    width: 80px;
+    background-color: #7EC5E3;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.baner {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.baner img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+
+.cor {
+    color: white;
+    display: block;
+
+}
+
+
+/* Footer */
+#rodape {
+
+    background-color: #136093;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 150px;
+}
+
+#rodape h4 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.ins,
+.reds,
+.aten,
+.formas,
+.end {
+    flex-basis: calc(20% - 20px);
+}
+
+.end a,
+.ins a,
+.reds a,
+.aten a,
+.formas a,
+.end a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.reds img {
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1200px) {
+    .cab {
+        flex-direction: column;
+    }
+
+    .cab1,
+    .cab3 {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cab {
+        padding: 5px;
+    }
+
+    .cab2 {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .pesquisa {
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .pesquisa input[type="text"] {
+        width: 100%;
+    }
+
+    .pesquisa button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .servicos figure {
+        width: 45%;
+
+    }
+
+    .flex-container {
+        flex-direction: column;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+}
+
+h2 {
+    color: #ffa42d;
+
+}
+
+.produtos,
+.servicos,
+.meadote {
+    max-width: 100%;
+    padding-left: 10%;
+    padding-top: 2%;
+
+
+
+}
+
+figure {
+    display: flex;
+
+
+}
+
+
+.fotos {
+    width: 10%;
+    height: auto;
+    padding: 6%;
+    opacity: 0.8;
+    transition: opacity 0.1s ease-in-out;
+    border-radius: 20%;
+
+
+
+}
+
+img.fotos:hover {
+    opacity: 1;
+    width: 15%;
+    border: 1px solid rgb(255, 164, 45);
+
+}
+
+.fotoss {
+    width: 50%;
+    height: auto;
+    padding: 1%;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #f1f1f1;
+}
+
+.flex-container .center {
+    padding-top: 1%;
+    background-color: #ffa42d;
+    width: 100%;
+    margin: 1%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 1%;
+}
+
+.flex-container .cantos {
+    padding-top: 1%;
+    background-color: #97e3f8;
+    width: 100%;
+    margin: 1%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 1%;
+}
+
+p.con {
+    display: block;
+    flex-wrap: nowrap;
+
+    padding-top: 1%;
+
+    width: 100%;
+    margin: 1%;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 1%;
+}
+
+.trabalhe {
+    background-color: #97e3f8;
+    display: flex;
+    justify-content: center;
+   width: 80%;
+   margin: auto;
+
+}

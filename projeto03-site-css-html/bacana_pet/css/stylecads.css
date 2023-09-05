@@ -1,0 +1,513 @@
+/* CSS Reset = REINICIAR */
+body,
+h1,
+h2,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Additional Styles = ESTILOS ADICIONAIS */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Header = CABEÇALHO */
+.cab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2bbaf6;
+  padding: 10px;
+}
+
+/* CABEÇALHO 1 E 3 */
+.cab1,
+.cab3 {
+  flex: 1;
+}
+
+/* CABEÇALHO 2 */
+.cab2 {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* RESPONSIVO */
+.icone-responsive {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 30px;
+  border-radius: 20%;
+ 
+}
+
+/* CONFIGURANDO O ELEMENTO PESQUISA */
+.pesquisa {
+  display: flex;
+  margin-left: 20px;
+}
+
+/* CONFIGURANDO O INPUT DA PESQUISA */
+.pesquisa input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 40px;
+}
+
+/* CONFIGURANDO O BOTÃO PESQUISA */
+.pesquisa button {
+  background-color: #0074D9;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 30px;
+ 
+}
+
+/* CONFIGURANDO A NAVEGAÇÃO UL */
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-right: 60px;
+  text-align: center;
+  margin-top: 20px;
+  height: auto;
+  
+      
+}
+
+ul li1:hover{
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+
+ul li2:hover{
+  background-color:#7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li3:hover{
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li4:hover{
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li5:hover{
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li6:hover{
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+
+
+
+/* CONFIGURANDO A NAVEGAÇÃO ANCORA */
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* CONFIGURANDO O BANNER */
+.baner {
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* CONFIGURANDO A IMAGEM BANNER */
+.baner img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+
+/* Responsive Styles = ESTILOS RESPONSIVOS PARA O CABEÇALHO */
+@media screen and (max-width: 1200px) {
+  .cab {
+    flex-direction: column;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA O CABEÇALHO 1 E 3 */
+  .cab1,
+  .cab3 {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive Styles = ESTILOS RESPONSIVOS PARA O CABEÇALHO */
+@media screen and (max-width: 800px) {
+  .cab {
+    padding: 5px;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA O CABEÇALHO 2 */
+  .cab2 {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA PESQUISA */
+  .pesquisa {
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA O INPUT PESQUISA */
+  .pesquisa input[type="text"] {
+    width: 100%;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA O BOTÃO PESQUISA */
+  .pesquisa button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA A NAVEGAÇÃO UL */
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Responsive Styles = ESTILOS RESPONSIVOS PARA O MAIN = CORPO PRINCIPAL */
+@media screen and (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+}
+
+
+
+
+
+/* INICIO DA PAGINA CADASTRO */
+
+
+/* configuração A IMAGEM DO LOGO FAÇA SEU CADASTRO */
+
+.faca-responsive {
+
+  display: flex;
+  height: auto;
+  margin-left: 30%;
+  border-radius: 95px;
+  box-shadow:5px 11px 11px 3px #13c7f8a0;
+  image-resolution: 300px;
+
+
+}
+
+
+/* configurando a cor da linha do hr */
+hr {
+  border-color: #4fb7f3;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+
+/* CONFIGURANDO O CONTAINER PRINCIPAL "FORMCD" */
+.formcad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+
+/* CONFIGURANDO A CAIXA DE FORMULARIO */
+.box-cadastro {
+  background-color: #97e3f8a0;
+  width: 800px;
+  height:300px;
+  padding: 10px;
+  border-color: #000306;
+  border-radius: 2%;
+  border: #000306;
+  
+}
+
+h3 {
+  
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONFIGURANDO O NOME E O IMPUT DO CLIENTE */
+
+#lblnome {
+  margin-left: 4%;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#txtnome {
+  margin-left: 1%;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONFIGURANDO O RG DO CLIENTE */
+#rg {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#txtrg {
+
+  margin-left: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CONFIGURANDO O IMPUT "CPF */
+#cpf {
+  margin-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CONFIGURANDO O IMPUT "DATA DE NASCIMENTO */
+#lbldtnasc {
+  margin-left:5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CONFIGURANDO TELEFONE FIXO E CELULAR */
+
+#fonefixo {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cel {
+  margin-left:5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CONFIGURANDO O ENDEREÇO - BAIRRO - CEP */
+
+#end {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#bairro {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#CEP {
+  margin-left: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CONFIGURANDO O ESTADO */
+#estado {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CONFIGURANDO CIDADE */
+
+#cidade {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/* AGORA VAMOS CONFIGURAR O FORMULARIO DE LOGIN */
+
+
+
+/* CONFIGURANDO O CONTAINER PRINCIPAL "FORMLOGIN" */
+.formlogin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/* CONFIGURANDO A CAIXA "BOX-LOGIN" */
+.box-login {
+  background-color: #97e3f8a0;
+  width: 800px;
+  padding: 10px;
+  border-color: #000306;
+  border-radius: 2%;
+  border: #000306;
+}
+
+
+/* CONFIGURANDO O TÍTULO DADOS CADASTRAIS */
+h3 {
+  
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CONFIGURANDO O EMAIL */
+#email {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* CONFORGURANDO O LOGIN - SENHA E CONFIRMAÇÃO DE SENHA */
+
+#log {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#senha {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#confirma {
+  margin-left: 4%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.login1-responsive {
+  margin-top: -28%;
+  height: auto;
+  display: flexbox;
+margin-left: 550px;
+border-radius: 95px;
+box-shadow:3px 8px 8px 3px #13c7f8a0;
+image-resolution: 300px;
+
+}
+
+/* CONFIGURANDO O SUBMIT "ENVIAR CADASTRO"*/
+input[type=enviar] {
+  width: 11%;
+  height: 17px;
+  margin-left: 42%;
+  font-size: 18px;
+  margin-top: 3%;
+  border-color: #4f97e0;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 10%;
+  background-color: #59a5f1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-block-end: 20px;
+  display:flexbox;
+  align-items: center;
+  text-align: center;
+}
+
+
+/* CONFIGURANDO O MOUSE DO SUBMIT "ENVIAR CADASTRO" */
+#ec:hover {
+  background-color: #054671;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+}
+
+
+/* Footer = RODAPÉ */
+#rodape {
+  background-color: #136093;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#rodape h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ins,
+.reds,
+.aten,
+.formas,
+.end {
+  flex-basis: calc(20% - 10px);
+    
+}
+
+
+.end a,
+.ins a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+.reds img {
+  margin-right: 3px
+}

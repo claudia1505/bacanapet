@@ -1,0 +1,483 @@
+/* CSS Reset */
+body,
+h1,
+h2,
+p,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Additional Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Header */
+.cab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2bbaf6;
+  padding: 10px;
+
+}
+
+.cab1,
+.cab3 {
+  flex: 1;
+}
+
+.cab2 {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.pesquisa input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 95px;
+
+}
+
+.pesquisa button {
+  background-color: #0074D9;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin-right: 60px;
+  text-align: center;
+  margin-top: 20px;
+  height: auto;
+
+
+}
+
+ul li1:hover {
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+
+ul li2:hover {
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li3:hover {
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li4:hover {
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li5:hover {
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+ul li6:hover {
+  background-color: #7EC5E3;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+.baner {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.baner img {
+  max-width: 100%;
+  border-radius: 15px;
+}
+
+
+/* Responsive Styles = ESTILOS RESPONSIVOS PARA O CABEÇALHO */
+@media screen and (max-width: 1200px) {
+  .cab {
+    flex-direction: column;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA O CABEÇALHO 1 E 3 */
+  .cab1,
+  .cab3 {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* Responsive Styles = ESTILOS RESPONSIVOS PARA O CABEÇALHO */
+@media screen and (max-width: 800px) {
+  .cab {
+    padding: 5px;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA O CABEÇALHO 2 */
+  .cab2 {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA PESQUISA */
+  .pesquisa {
+    justify-content: center;
+    margin-left: 0;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA O INPUT PESQUISA */
+  .pesquisa input[type="text"] {
+    width: 100%;
+
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA O BOTÃO PESQUISA */
+  .pesquisa button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  /* Responsive Styles = ESTILOS RESPONSIVOS PARA A NAVEGAÇÃO UL */
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Responsive Styles = ESTILOS RESPONSIVOS PARA O MAIN = CORPO PRINCIPAL */
+@media screen and (max-width: 600px) {
+  main {
+    padding: 10px;
+  }
+}
+
+
+
+
+
+/* INICIO DA PAGINA 8 */
+
+
+/* configuração do titulo principal */
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 350%;
+  padding-top: 3%;
+  font-weight: bold;
+  color: #ffffff;
+  word-spacing: 25px;
+  width: 100%;
+  color: #ffffff;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #110247;
+  -webkit-text-fill-color: #2d9bda;
+
+}
+
+
+/* configurando a cor da linha do hr */
+hr {
+  border-color: hsl(202, 87%, 63%);
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+/* CONFIGURANDO O TÍTULO */
+h3 {
+  text-align: center;
+  border-color: #000306;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 40px;
+  display: flexbox;
+  padding-top: 1%;
+  background-color: #2bbaf6;
+  border-radius: 5px;
+  color: #ffffff;
+
+}
+
+
+/* configurando a imagem do cachorro com toca */
+.img-ducha {
+  border-color: #0074D9;
+  border-radius: 50%;
+  margin-left: -30px;
+  width: 400px;
+  display: flex;
+  image-resolution: 300px;
+
+}
+
+/* configurando a imagem do cachorro com toca e o cachorro da conulta */
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+  margin-left: 30px;
+  border-radius: 95px;
+  box-shadow: 5px 11px 11px 3px #97e3f8;
+}
+
+
+/* CONFIGURANDO O CONTAINER PRINCIPAL "FORMBT" */
+.formbt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* CONFIGURANDO A CAIXA DE FORMULARIO */
+.box-formulario {
+  background-color: #97e3f8;
+  width: 800px;
+  padding: 10px;
+  border-color: #000306;
+  border-radius: 2%;
+  border: #000306;
+}
+
+
+/* CONFIGURANDO O IMPUT "NOME DO PROPRIETARIO */
+#txtnome {
+  margin-left: 1%;
+  margin-top: 10px;
+}
+
+
+/* CONFIGURANDO O IMPUT "NOME DO ANIMAL */
+#lblanimal {
+  margin-left: 10%;
+}
+
+
+/* CONFIGURANDO O IMPUT "SERVIÇOS */
+#lblservico {
+  margin-left: 28%;
+}
+
+
+/* CONFIGURANDO A LABEL HORARIO */
+#lblhorario {
+  margin-left: 14%;
+
+}
+
+
+
+/* Configurar a Caixa de Enviar "Agendar" */
+#sub {
+  width: 20%;
+  height: 50px;
+  margin-left: 40%;
+  font-size: 25px;
+  margin-top: 7%;
+  border-color: #000306;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10%;
+  background-color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-block-end: 10px;
+}
+
+
+/* CONFIGURANDO O MOUSE SUBMIT */
+#sub:hover {
+  background-color: #97e3f8;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+}
+
+/* AGORA VAMOS CONFIGURAR O FORMULARIO DE CONSULTA VETERINARIA */
+
+
+/* Configurando o título CONSULTA VETERINÁRIA */
+.verde {
+  background-color: #2bbaf6;
+  color: #000306;
+  display: flexbox;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+
+/* CONFIGURANDO O CONTAINER PRINCIPAL "FORMCONS" */
+.formcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* configurando a imagem do cacorro na consulta */
+.img-consulta {
+  border-color: #0074D9;
+  border-radius: 5%;
+  margin-left: -30px;
+  width: 400px;
+  display: flex;
+  height: 260px;
+  margin-top: -5%;
+  image-resolution: 300px;
+
+}
+
+
+/* CONFIGURANDO A CAIXA DE FORMULARIO CONSULTA */
+.box-consulta {
+  background-color: #97e3f8;
+  width: 800px;
+  padding: 10px;
+  border-color: #000306;
+  border-radius: 2%;
+  border: #000306;
+}
+
+
+/* CONFIGURANDO O IMPUT "NOME DO PROPRIETARIO */
+#txtpropri {
+  margin-left: 1%;
+  margin-top: 10px;
+}
+
+
+/* CONFIGURANDO O IMPUT "NOME DO ANIMAL */
+#consanimal {
+  margin-left: 10%;
+}
+
+
+/* CONFIGURANDO A LABEL HORARIO */
+#lblhora {
+  margin-left: 14%;
+}
+
+
+/* CONFIGURANDO A LABEL SINTOMAS */
+#lblsintomas {
+  border-radius: 10%;
+}
+
+
+/* CONFIGURANDO O SUBMIT "ENVIAR"*/
+input[type=submit] {
+  width: 20%;
+  height: 50px;
+  margin-left: 40%;
+  font-size: 25px;
+  margin-top: 7%;
+  border-color: #000306;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10%;
+  background-color: #2196F3;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-block-end: 10px;
+}
+
+/* CONFIGURANDO O MOUSE DO SUBMIT "ENVIAR" */
+.agcons:hover {
+  background-color: #136093;
+  color: white;
+  display: flexbox;
+  cursor: pointer;
+}
+
+
+
+/* Footer = RODAPÉ */
+#rodape {
+  background-color: #136093;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#rodape h4 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ins,
+.reds,
+.aten,
+.formas,
+.end {
+  flex-basis: calc(20% - 10px);
+
+}
+
+
+.end a,
+.ins a,
+.reds a,
+.aten a,
+.formas a,
+.end a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
